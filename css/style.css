@@ -1,0 +1,100 @@
+*{
+	background-color:aquamarine;
+}
+h2{
+	text-align: center;
+	text-decoration: underline;
+	color: darkorange;
+}
+h3{
+	color:red;
+}
+h4{
+	color:fuchsia;
+}
+p.dotted{
+	border-style: dotted;
+}
+p.dashed{
+	border-style: dashed;
+}
+p.solid{
+	border-style: solid;
+}
+p.double{
+	border-style: double;
+}
+p.groove{
+	border-style: groove;
+}
+p.ridge{
+	border-style: ridge;
+}
+p.inset{
+	border-style: inset;
+	cursor: zoom-out;
+}
+p.outset{
+	border-style: outset;
+}
+p.none{
+	border-style: none;
+}
+p.hidden{
+	border-style: initial;
+}
+
+/* Border Width */
+
+.pixel{
+	border-style: solid;
+	border-width:5px;	
+}
+
+.medium{
+	border-style: dashed;
+	border-width: medium;
+}
+.thick{
+	border-style: solid;
+	border-width: thick;
+}
+.thin{
+	border-style: solid;
+	border-width: thin;
+}
+
+/* Border Color */
+
+p.color{
+	border-style: solid;
+	border-color: red blue green yellow;
+}
+
+/* Border Sides */
+
+.sides{
+	color: red;
+	border-top-style: dotted;
+	border-right-style: solid;
+	border-bottom-style: dashed;
+	border-left-style: solid;
+	border-left-width: thick;
+}
+
+/* CSS Shorthand Border Property */
+
+.shorthand{
+	border: 5px solid violet;
+}
+
+/* CSS Rounded Borders */
+
+.image{
+	border: 2px solid red;
+	border-radius: 50px;
+	padding: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
